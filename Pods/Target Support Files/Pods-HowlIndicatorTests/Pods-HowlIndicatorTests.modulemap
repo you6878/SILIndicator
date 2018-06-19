@@ -1,0 +1,6 @@
+framework module Pods_HowlIndicatorTests {
+  umbrella header "Pods-HowlIndicatorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

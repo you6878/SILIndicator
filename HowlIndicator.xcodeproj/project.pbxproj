@@ -14,6 +14,9 @@
 		02076AEF20D938420042C99C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02076AED20D938420042C99C /* LaunchScreen.storyboard */; };
 		02076AFA20D938420042C99C /* HowlIndicatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02076AF920D938420042C99C /* HowlIndicatorTests.swift */; };
 		02076B0520D938420042C99C /* HowlIndicatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02076B0420D938420042C99C /* HowlIndicatorUITests.swift */; };
+		107390F02124D668949A9F28 /* Pods_HowlIndicatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5AE34FBC5C03B666F00A12E /* Pods_HowlIndicatorTests.framework */; };
+		9352A516E23F5F1A122D1AB6 /* Pods_HowlIndicatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A414510850108BF83E3F72A /* Pods_HowlIndicatorUITests.framework */; };
+		9679DB45CB63AC3286708790 /* Pods_HowlIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E75C2BA3AE268DBBE4A0857 /* Pods_HowlIndicator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		02076B0020D938420042C99C /* HowlIndicatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowlIndicatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02076B0420D938420042C99C /* HowlIndicatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowlIndicatorUITests.swift; sourceTree = "<group>"; };
 		02076B0620D938420042C99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040ADECFA326C1EEEBBA9DBE /* Pods-HowlIndicatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlIndicatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowlIndicatorTests/Pods-HowlIndicatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E75C2BA3AE268DBBE4A0857 /* Pods_HowlIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED28FABF76E45DD91C14DCB /* Pods-HowlIndicatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlIndicatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowlIndicatorTests/Pods-HowlIndicatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D25001E2199E94161D7482A /* Pods-HowlIndicatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlIndicatorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowlIndicatorUITests/Pods-HowlIndicatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E397D7E5297F22DF2C69B32 /* Pods-HowlIndicatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlIndicatorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowlIndicatorUITests/Pods-HowlIndicatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3A414510850108BF83E3F72A /* Pods_HowlIndicatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlIndicatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5AE34FBC5C03B666F00A12E /* Pods_HowlIndicatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlIndicatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2DBE647F48CF3EF1F5607D2 /* Pods-HowlIndicator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlIndicator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowlIndicator/Pods-HowlIndicator.debug.xcconfig"; sourceTree = "<group>"; };
+		F0BA8BA9784CC45B79C64EB3 /* Pods-HowlIndicator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlIndicator.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowlIndicator/Pods-HowlIndicator.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9679DB45CB63AC3286708790 /* Pods_HowlIndicator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				107390F02124D668949A9F28 /* Pods_HowlIndicatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9352A516E23F5F1A122D1AB6 /* Pods_HowlIndicatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				02076AF820D938420042C99C /* HowlIndicatorTests */,
 				02076B0320D938420042C99C /* HowlIndicatorUITests */,
 				02076AE220D938410042C99C /* Products */,
+				0F08F9DCFD41912FDDBCA46E /* Pods */,
+				46DE9A37F1063425D8337689 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = HowlIndicatorUITests;
 			sourceTree = "<group>";
 		};
+		0F08F9DCFD41912FDDBCA46E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2DBE647F48CF3EF1F5607D2 /* Pods-HowlIndicator.debug.xcconfig */,
+				F0BA8BA9784CC45B79C64EB3 /* Pods-HowlIndicator.release.xcconfig */,
+				040ADECFA326C1EEEBBA9DBE /* Pods-HowlIndicatorTests.debug.xcconfig */,
+				0ED28FABF76E45DD91C14DCB /* Pods-HowlIndicatorTests.release.xcconfig */,
+				2D25001E2199E94161D7482A /* Pods-HowlIndicatorUITests.debug.xcconfig */,
+				2E397D7E5297F22DF2C69B32 /* Pods-HowlIndicatorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		46DE9A37F1063425D8337689 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E75C2BA3AE268DBBE4A0857 /* Pods_HowlIndicator.framework */,
+				B5AE34FBC5C03B666F00A12E /* Pods_HowlIndicatorTests.framework */,
+				3A414510850108BF83E3F72A /* Pods_HowlIndicatorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02076B0920D938420042C99C /* Build configuration list for PBXNativeTarget "HowlIndicator" */;
 			buildPhases = (
+				3EC5F016E4B736EC01F61DEA /* [CP] Check Pods Manifest.lock */,
 				02076ADD20D938410042C99C /* Sources */,
 				02076ADE20D938410042C99C /* Frameworks */,
 				02076ADF20D938410042C99C /* Resources */,
+				32E9A56A09EA15C5B39CC04A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02076B0C20D938420042C99C /* Build configuration list for PBXNativeTarget "HowlIndicatorTests" */;
 			buildPhases = (
+				023403614AF8F0B42EACC5E5 /* [CP] Check Pods Manifest.lock */,
 				02076AF120D938420042C99C /* Sources */,
 				02076AF220D938420042C99C /* Frameworks */,
 				02076AF320D938420042C99C /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02076B0F20D938420042C99C /* Build configuration list for PBXNativeTarget "HowlIndicatorUITests" */;
 			buildPhases = (
+				1B49B0DDFB49AD648E5B0EBD /* [CP] Check Pods Manifest.lock */,
 				02076AFC20D938420042C99C /* Sources */,
 				02076AFD20D938420042C99C /* Frameworks */,
 				02076AFE20D938420042C99C /* Resources */,
@@ -250,6 +294,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		023403614AF8F0B42EACC5E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlIndicatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B49B0DDFB49AD648E5B0EBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlIndicatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32E9A56A09EA15C5B39CC04A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HowlIndicator/Pods-HowlIndicator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlIndicator/Pods-HowlIndicator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EC5F016E4B736EC01F61DEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlIndicator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		02076ADD20D938410042C99C /* Sources */ = {
@@ -428,15 +547,13 @@
 		};
 		02076B0A20D938420042C99C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2DBE647F48CF3EF1F5607D2 /* Pods-HowlIndicator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YS9FD49N82;
 				INFOPLIST_FILE = HowlIndicator/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbplatform.HowlIndicator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -446,15 +563,13 @@
 		};
 		02076B0B20D938420042C99C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0BA8BA9784CC45B79C64EB3 /* Pods-HowlIndicator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YS9FD49N82;
 				INFOPLIST_FILE = HowlIndicator/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbplatform.HowlIndicator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -464,17 +579,14 @@
 		};
 		02076B0D20D938420042C99C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 040ADECFA326C1EEEBBA9DBE /* Pods-HowlIndicatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YS9FD49N82;
 				INFOPLIST_FILE = HowlIndicatorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbplatform.HowlIndicatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -485,17 +597,14 @@
 		};
 		02076B0E20D938420042C99C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED28FABF76E45DD91C14DCB /* Pods-HowlIndicatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YS9FD49N82;
 				INFOPLIST_FILE = HowlIndicatorTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbplatform.HowlIndicatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -506,16 +615,13 @@
 		};
 		02076B1020D938420042C99C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D25001E2199E94161D7482A /* Pods-HowlIndicatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YS9FD49N82;
 				INFOPLIST_FILE = HowlIndicatorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbplatform.HowlIndicatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -526,16 +632,13 @@
 		};
 		02076B1120D938420042C99C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E397D7E5297F22DF2C69B32 /* Pods-HowlIndicatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YS9FD49N82;
 				INFOPLIST_FILE = HowlIndicatorUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbplatform.HowlIndicatorUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
